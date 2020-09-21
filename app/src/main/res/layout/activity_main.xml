@@ -8,9 +8,9 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="341dp"
-        android:layout_height="258dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="333dp"
+        android:layout_height="221dp"
+        android:layout_marginTop="5dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
@@ -20,7 +20,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="42dp"
+            android:layout_height="35dp"
             android:orientation="horizontal">
 
             <EditText
@@ -29,7 +29,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te01"
@@ -37,7 +39,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te02"
@@ -45,7 +49,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te03"
@@ -53,7 +59,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te04"
@@ -61,7 +69,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te05"
@@ -69,12 +79,14 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="42dp"
+            android:layout_height="35dp"
             android:orientation="horizontal">
 
             <EditText
@@ -83,7 +95,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te11"
@@ -91,7 +105,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te12"
@@ -99,7 +115,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te13"
@@ -107,7 +125,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te14"
@@ -115,7 +135,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te15"
@@ -123,12 +145,14 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="42dp"
+            android:layout_height="35dp"
             android:orientation="horizontal">
 
             <EditText
@@ -137,7 +161,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te21"
@@ -145,7 +171,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te22"
@@ -153,7 +181,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te23"
@@ -161,7 +191,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te24"
@@ -169,7 +201,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te25"
@@ -177,12 +211,14 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="42dp"
+            android:layout_height="35dp"
             android:orientation="horizontal">
 
             <EditText
@@ -191,7 +227,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te31"
@@ -199,7 +237,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te32"
@@ -207,7 +247,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te33"
@@ -215,7 +257,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te34"
@@ -223,7 +267,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te35"
@@ -231,12 +277,14 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="42dp"
+            android:layout_height="35dp"
             android:orientation="horizontal">
 
             <EditText
@@ -245,7 +293,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te41"
@@ -253,7 +303,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te42"
@@ -261,7 +313,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te43"
@@ -269,7 +323,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te44"
@@ -277,7 +333,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te45"
@@ -285,12 +343,14 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="42dp"
+            android:layout_height="35dp"
             android:orientation="horizontal">
 
             <EditText
@@ -299,7 +359,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te51"
@@ -307,7 +369,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te52"
@@ -315,7 +379,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te53"
@@ -323,7 +389,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te54"
@@ -331,7 +399,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/te55"
@@ -339,27 +409,467 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
         </LinearLayout>
 
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/tvSum"
-        android:layout_width="175dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="16dp"
-        android:text="Сумма"
+    <LinearLayout
+        android:id="@+id/linearLayout_2"
+        android:layout_width="335dp"
+        android:layout_height="214dp"
+        android:layout_marginTop="220dp"
+        android:orientation="vertical"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/te00_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te01_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te02_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te03_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te04_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te05_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/te10_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te11_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te12_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te13_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te14_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te15_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/te20_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te21_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te22_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te23_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te24_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te25_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/te30_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te31_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te32_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te33_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te34_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te35_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/te40_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te41_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te42_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te43_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te44_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te45_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/te50_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te51_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te52_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te53_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te54_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/te55_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:maxHeight="35dp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
 
     <LinearLayout
-        android:layout_width="333dp"
-        android:layout_height="122dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
+        android:id="@+id/linearLayout2"
+        android:layout_width="315dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -374,12 +884,84 @@
             android:text="Очистить" />
 
         <Button
+            android:id="@+id/btnGen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Сген." />
+
+        <Button
             android:id="@+id/btnStart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:width="50dip"
-            android:text="Рассчитать" />
+            android:text="Расчет" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="358dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="116dp"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Задать численный интервал" />
+
+            <SeekBar
+                android:id="@+id/seekBar1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="10" />
+
+            <SeekBar
+                android:id="@+id/seekBar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="10" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvInt"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Интервал" />
+
+                <TextView
+                    android:id="@+id/tvSum"
+                    android:layout_width="84dp"
+                    android:layout_height="35dp"
+                    android:text="Сумма"
+                    tools:ignore="MissingConstraints" />
+
+                <Switch
+                    android:id="@+id/switch1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Скрыть результат" />
+
+            </LinearLayout>
+        </LinearLayout>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
